@@ -1,0 +1,274 @@
+
+
+.container{
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    background: #333;
+    border-bottom: 1px solid #333;
+    padding-top: 10px;
+}
+
+
+
+.header__logo{
+    text-align: center;
+}
+
+.header__logo--text{
+    border: 2px solid rgb(151, 43, 43);
+    color: white;
+    padding: 10px;
+}
+
+.header__logo--text:hover{
+    background: rgb(151, 43, 43);
+    transition: 0.3s;
+    border: 2px solid white;
+}
+.header__form{
+    padding: 0;
+    padding: 10px 0px;
+}
+
+
+ul.header__menulist{
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+ul.header__menulist li{
+    display: inline;
+}
+
+.header__menulist--button{
+    background: rgb(151, 43, 43);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(151, 43, 43);
+}
+
+.header__menulist--button:hover{
+    color:rgba(255, 255, 255, 0.521);
+    background: rgb(159, 43, 43);
+}
+
+nav{
+    margin-top: 10px;
+    color: white;
+    
+}
+
+.nav__oneOption{
+    padding: 20px;
+    background: rgb(151, 43, 43);
+}
+
+.nav__twoOption,
+.nav__threeOption,
+.nav__fourOption,
+.nav__fiveOption{
+    padding: 20px;
+    background: rgb(151, 43, 43);
+}
+
+.nav__sixOption{
+    padding: 20px;
+    background: rgb(151, 43, 43);
+}
+
+.nav__oneOption:hover,
+.nav__twoOption:hover,
+.nav__threeOption:hover,
+.nav__fourOption:hover,
+.nav__fiveOption:hover,
+.nav__sixOption:hover{
+    background: rgb(159, 43, 43);
+    color:rgba(255, 255, 255, 0.521);
+}
+
+#showcaseOne .container-fluid{
+    width: 100%;
+    padding: 0 !important;
+}
+
+
+.showcaseOne__content{
+    color: white;
+    font-size: 34px;
+    font-weight: 600;
+}
+.showcaseOne__content--text{
+    margin: 0;
+}
+
+#showcaseTwo{
+background: #333;
+}
+
+.showcaseTwo__content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.showcaseTwo__content div{
+    background: #333;
+    color: white;
+    padding: 200px 20px;
+    border: 1px solid rgb(151, 43, 43);
+}
+
+.showcaseTwo__content--a,
+.showcaseTwo__content--a:active,
+.showcaseTwo__content--a:link,
+.showcaseTwo__content--a:visited{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(151, 43, 43);
+}
+
+.showcaseTwo__content--a:hover{
+color: rgb(190, 43, 43);
+text-decoration: none;
+}
+
+.showcaseTwo__content--icon{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.showcaseTwo__content--icon:hover{
+    color:rgb(151, 43, 43);
+}
+
+#showcaseThree{
+    background: url('https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.png') no-repeat bottom center;
+    padding: 150px 0px;
+    }
+    
+    .showcaseThree__content{
+        color: white;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .showcaseThree__content--text{
+        margin: 0;
+    }
+
+
+.showcaseThree__right div{
+    color: white;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.showcaseThree__right div h2{
+    display: flex;
+    align-items: center;
+}
+
+.showcaseThree__right div h2::before,
+.showcaseThree__right div h2::after{
+
+    content: '';
+    display: block;
+    border: 1px solid red;
+}
+
+.showcaseThree__right div h2::before,
+.showcaseThree__right div h2::after{
+   flex-grow: 1;
+   margin: 0 5px;
+}
+
+
+
+
+
+footer .container{
+    margin-top: -40px;
+    padding: 10px 0px;
+    background: #333;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+footer .container .row{
+    padding: 0;
+    margin: 0;
+}
+
+footer .container .row p{
+margin: 0;
+letter-spacing: 0.6em
+}
+
+/* MEDIA QUERIES */
+
+/* XS */
+@media (max-width: 575.98px) { 
+   
+
+
+    .header__form--button{
+        width: 100%;
+    }
+
+    ul.header__menulist li{
+        display: block;
+        padding: 0;
+    }
+
+    .header__menulist--button{
+        width: 100%;
+    }
+
+  
+  }
+ 
+ /* SM */
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    
+
+    ul.header__menulist li{
+        display: block;
+        padding: 0;
+    }
+
+    .header__menulist--button{
+        width: 100%;
+    }
+  }
+ 
+/* MD */
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+  
+
+    ul.header__menulist li{
+        display: block;
+        padding: 0;
+    }
+
+    .header__menulist--button{
+        width: 100%;
+    }
+  }
+ 
+/* LG */
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+      
+  }
+ 
+/* XL */
+ @media (min-width: 1200px) { 
+    
+      
+  }

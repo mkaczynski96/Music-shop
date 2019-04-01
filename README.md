@@ -1,4 +1,4 @@
 # music-shop
 Simple website 
 
-Live demo: https://donmikele.github.io/music-shop/
+Live demo: https://mkaczynski96.github.io/music-shop/
